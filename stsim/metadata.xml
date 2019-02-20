@@ -3,6 +3,6 @@
   name="stsim"
   version="3.2.0"
   location="https://github.com/ApexRMS/stsim/releases/download/3.2.0/stsim-3-2-0.ssimpkg"
-  description="SyncroSim Base Package for developing state-and-transition simulation models using ST-Sim."
+  description="The ST-Sim state-and-transition simulation model"
   url="https://github.com/ApexRMS/stsim">
 </package>

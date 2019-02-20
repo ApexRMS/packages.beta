@@ -3,7 +3,7 @@
   name="stsim-stockflow"
   version="3.2.0"
   location="https://github.com/ApexRMS/stsim-stockflow/releases/download/3.2.0/stsim-stockflow-3-2-0.ssimpkg"
-  description="SyncroSim Add-On Package (to stsim) for integrating stocks and flows into state-and-transition simulation models in ST-Sim."
+  description="Integrates stocks and flows into the ST-Sim state-and-transition simulation model"
   requires="stsim"
   url="https://github.com/ApexRMS/stsim-stockflow">
 </package>

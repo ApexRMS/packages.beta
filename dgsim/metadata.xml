@@ -3,6 +3,6 @@
   name="dgsim"
   version="2.2.0"
   location="https://github.com/ApexRMS/dgsim/releases/download/2.2.0/dgsim-2-2-0.ssimpkg"
-  description="SyncroSim Base Package for simulating demographics of wildlife populations."
+  description="Simulates demographics of wildlife populations"
   url="https://github.com/ApexRMS/dgsim">
 </package>
