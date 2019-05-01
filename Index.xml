@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <packages>
   <package
+    name="sample-sales"
+    version="1.1.0"
+    location="https://github.com/ApexRMS/sample-sales/releases/download/1.1.0/sample-sales-1-1-0.ssimpkg"
+    description="Sample Sales SyncroSim Base Package"
+    url="https://github.com/ApexRMS/sample-sales">
+  </package>
+  <package
     name="dgsim"
     version="2.2.0"
     location="https://github.com/ApexRMS/dgsim/releases/download/2.2.0/dgsim-2-2-0.ssimpkg"
