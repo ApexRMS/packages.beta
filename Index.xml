@@ -29,4 +29,12 @@
     requires="stsim"
     url="https://github.com/ApexRMS/stsim-stockflow">
   </package>
+   <package
+    name="stsim-ecodep"
+    version="3.2.0"
+    location="https://github.com/ApexRMS/stsim-ecodep/releases/download/3.2.0/stsim-ecodep-3-2-0.ssimpkg"
+    description="Calculates ecological departure in ST-Sim using the LANDFIRE Fire Regime Condition Class."
+    requires="stsim"
+    url="https://github.com/ApexRMS/stsim-ecodep">
+  </package> 
 </packages>
