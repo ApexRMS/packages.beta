@@ -36,7 +36,7 @@
     description="Calculates ecological departure in ST-Sim using the LANDFIRE Fire Regime Condition Class"
     requires="stsim"
     url="https://github.com/ApexRMS/stsim-ecodep">
-  </package> 
+  </package>
   <package
     name="stsim-dmult"
     version="3.2.0"
@@ -44,5 +44,5 @@
     description="Generates dynamic multipliers in ST-Sim"
     requires="stsim"
     url="https://github.com/ApexRMS/stsim-dmult">
-  </package>   
+  </package>
 </packages>
