@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<package
-  name="stsim-stockflow"
-  version="3.2.2"
-  location="https://github.com/ApexRMS/stsim-stockflow/releases/download/3.2.2/stsim-stockflow-3-2-2.ssimpkg"
-  description="Integrates stocks and flows into the ST-Sim simulation model"
-  requires="stsim"
-  url="https://github.com/ApexRMS/stsim-stockflow">
-</package>
