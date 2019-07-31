@@ -30,7 +30,7 @@
     url="https://github.com/ApexRMS/stsimsf">
   </package>
   <package
-    name="stsim-ecodep"
+    name="stsimecodep"
     version="3.2.3"
     location="https://github.com/ApexRMS/stsimecodep/releases/download/3.2.3/stsimecodep-3-2-3.ssimpkg"
     description="Calculates ecological departure in ST-Sim using the LANDFIRE Fire Regime Condition Class"
