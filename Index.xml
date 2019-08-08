@@ -31,8 +31,8 @@
   </package>
   <package
     name="stsimsf"
-    version="3.2.5"
-    location="https://github.com/ApexRMS/stsimsf/releases/download/3.2.5/stsimsf-3-2-5.ssimpkg"
+    version="3.2.6"
+    location="https://github.com/ApexRMS/stsimsf/releases/download/3.2.6/stsimsf-3-2-6.ssimpkg"
     description="Integrates stocks and flows into the ST-Sim simulation model"
     requires="stsim"
     url="https://github.com/ApexRMS/stsimsf">
