@@ -1,6 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <packages>
   <package
+    name="lucas"
+    version="1.0.1"
+    location="https://github.com/bsleeter/lucas/releases/download/1.0.1/lucas-1-0-1.ssimpkg"
+    description="Land Use and Carbon Scenario Simulator (LUCAS) Base Package"
+    requires="stsim"
+    url="https://github.com/bsleeter/lucas">
+  </package>
+  <package
     name="demosales"
     version="1.0.0"
     location="https://github.com/ApexRMS/demosales/releases/download/1.0.0/demosales-1-0-0.ssimpkg"
@@ -45,12 +53,12 @@
     requires="stsim"
     url="https://github.com/ApexRMS/stsimdmult">
   </package>
-   <package
-    name="stsimcbmcfs3"
-    version="1.0.2"
-    location="https://github.com/ApexRMS/stsimcbmcfs3/releases/download/1.0.2/stsimcbmcfs3-1-0-2.ssimpkg"
-    description="Integrates the Carbon Budget Model for the Canadian Forest Sector (CBM-CFS3) into the ST-Sim simulation model"
-    requires="stsim stsimsf"
-    url="https://github.com/ApexRMS/stsimcbmcfs3">
-  </package> 
+  <package
+   name="stsimcbmcfs3"
+   version="1.0.2"
+   location="https://github.com/ApexRMS/stsimcbmcfs3/releases/download/1.0.2/stsimcbmcfs3-1-0-2.ssimpkg"
+   description="Integrates the Carbon Budget Model for the Canadian Forest Sector (CBM-CFS3) into the ST-Sim simulation model"
+   requires="stsim stsimsf"
+   url="https://github.com/ApexRMS/stsimcbmcfs3">
+  </package>
 </packages>
