@@ -14,4 +14,11 @@
     description="The ST-Sim state-and-transition simulation model"
     url="https://github.com/ApexRMS/stsim">
   </package>
+  <package
+    name="demosales"
+    version="1.0.0"
+    location="https://github.com/ApexRMS/demosales/releases/download/1.0.0/demosales-1-0-0.ssimpkg"
+    description="Demo Sales SyncroSim Base Package"
+    url="https://github.com/ApexRMS/demosales">
+  </package>
 </packages>
