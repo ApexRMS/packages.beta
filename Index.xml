@@ -1,72 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <packages>
   <package
-    name="lucas"
-    version="1.0.2"
-    location="https://github.com/bsleeter/lucas/releases/download/1.0.2/lucas-1-0-2.ssimpkg"
-    type="Base"
-    description="Land Use and Carbon Scenario Simulator (LUCAS)"
-    requires="stsim"
-    url="https://github.com/bsleeter/lucas">
-  </package>
-  <package
-    name="demosales"
-    version="1.0.0"
-    location="https://github.com/ApexRMS/demosales/releases/download/1.0.0/demosales-1-0-0.ssimpkg"
-    type="Base"
-    description="Demo Sales SyncroSim Base Package"
-    url="https://github.com/ApexRMS/demosales">
-  </package>
-  <package
-    name="dgsim"
-    version="2.2.4"
-    location="https://github.com/ApexRMS/dgsim/releases/download/2.2.4/dgsim-2-2-4.ssimpkg"
-    type="Base"
-    description="Simulates demographics of wildlife populations"
-    url="https://github.com/ApexRMS/dgsim">
-  </package>
-  <package
-    name="stsim"
-    version="3.2.6"
-    location="https://github.com/ApexRMS/stsim/releases/download/3.2.6/stsim-3-2-6.ssimpkg"
-    type="Base"
-    description="The ST-Sim state-and-transition simulation model"
-    url="https://github.com/ApexRMS/stsim">
-  </package>
-  <package
-    name="stsimsf"
-    version="3.2.6"
-    location="https://github.com/ApexRMS/stsimsf/releases/download/3.2.6/stsimsf-3-2-6.ssimpkg"
-    type="Add-on to stsim"
-    description="Integrates stocks and flows into the ST-Sim simulation model"
-    requires="stsim"
-    url="https://github.com/ApexRMS/stsimsf">
-  </package>
-  <package
-    name="stsimecodep"
-    version="3.2.3"
-    location="https://github.com/ApexRMS/stsimecodep/releases/download/3.2.3/stsimecodep-3-2-3.ssimpkg"
-    type="Add-on to stsim"
-    description="Calculates ecological departure in ST-Sim using the LANDFIRE Fire Regime Condition Class"
-    requires="stsim"
-    url="https://github.com/ApexRMS/stsimecodep">
-  </package>
-  <package
-    name="stsimdmult"
-    version="3.2.3"
-    location="https://github.com/ApexRMS/stsimdmult/releases/download/3.2.3/stsimdmult-3-2-3.ssimpkg"
-    type="Add-on to stsim"
-    description="Generates dynamic multipliers in ST-Sim"
-    requires="stsim"
-    url="https://github.com/ApexRMS/stsimdmult">
-  </package>
-  <package
-   name="stsimcbmcfs3"
-   version="1.0.2"
-   location="https://github.com/ApexRMS/stsimcbmcfs3/releases/download/1.0.2/stsimcbmcfs3-1-0-2.ssimpkg"
-   type="Add-on to stsim"
-   description="Integrates the Carbon Budget Model for the Canadian Forest Sector (CBM-CFS3) into the ST-Sim simulation model"
-   requires="stsim stsimsf"
-   url="https://github.com/ApexRMS/stsimcbmcfs3">
+    name="epi"
+    version="1.0.8"
+    location="https://github.com/ApexRMS/epi/releases/download/1.0.8/epi-1-0-8.ssimpkg"
+    description="Epidemic Base Package for SyncroSim"
+    url="https://github.com/ApexRMS/epi">
   </package>
 </packages>
