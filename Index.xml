@@ -45,13 +45,13 @@
     url="https://github.com/ApexRMS/epiModelDeathHospital">
   </package>  
   <package
-    name="dataBcCdc"
+    name="epiDataBc"
     version="1.0.0"
-    location="https://github.com/ApexRMS/dataBcCdc/releases/download/1.0.0/dataBcCdc-1-0-0.ssimpkg"
+    location="https://github.com/ApexRMS/epiDataBc/releases/download/1.0.0/epiDataBc-1-0-0.ssimpkg"
     description="BC COVID-19 Data"
     type="Add-on to epi"
     requires="epi"
-    url="https://github.com/ApexRMS/dataBcCdc">
+    url="https://github.com/ApexRMS/epiDataBc">
   </package>  
   <package
     name="epiDataCanada"
