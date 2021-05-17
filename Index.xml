@@ -62,5 +62,12 @@
     location="https://github.com/ApexRMS/epiForecastIHME/releases/download/1.0.0/epiForecastIHME-1-0-0.ssimpkg"
     description="IHME COVID-19 Forecasts"
     url="https://github.com/ApexRMS/epiForecastIHME">
-  </package>  
+  </package>
+  <package
+    name="epiTransform"
+    version="1.0.0"
+    location="https://github.com/ApexRMS/epiTransform/releases/download/1.0.0/epiTransform-1-0-0.ssimpkg"
+    description="Remove Seasonal Effects"
+    url="https://github.com/ApexRMS/epiTransform">
+  </package>    
 </packages>
