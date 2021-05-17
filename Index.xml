@@ -5,6 +5,7 @@
     version="1.0.8"
     location="https://github.com/ApexRMS/epi/releases/download/1.0.8/epi-1-0-8.ssimpkg"
     description="Epidemic Base Package"
+    type="Base"
     url="https://github.com/ApexRMS/epi">
   </package>
   <package
@@ -12,6 +13,8 @@
     version="1.0.0"
     location="https://github.com/ApexRMS/modelKarlenPypm/releases/download/1.0.0/modelKarlenPypm-1-0-0.ssimpkg"
     description="Karlen PyPm Model"
+    type="Add-on to epi"
+    requires="epi"
     url="https://github.com/ApexRMS/modelKarlenPypm">
   </package>  
   <package
@@ -19,6 +22,8 @@
     version="1.0.0"
     location="https://github.com/ApexRMS/modelCovidseir/releases/download/1.0.0/modelCovidseir-1-0-0.ssimpkg"
     description="Covidseir Model"
+    type="Add-on to epi"
+    requires="epi"
     url="https://github.com/ApexRMS/modelCovidseir">
   </package>  
   <package
@@ -26,6 +31,8 @@
     version="1.0.0"
     location="https://github.com/ApexRMS/epiModelVocVaccine/releases/download/1.0.0/epiModelVocVaccine-1-0-0.ssimpkg"
     description="VOC + Vaccine Model"
+    type="Add-on to epi"
+    requires="epi"
     url="https://github.com/ApexRMS/epiModelVocVaccine">
   </package> 
   <package
@@ -33,6 +40,8 @@
     version="1.0.0"
     location="https://github.com/ApexRMS/epiModelDeathHospital/releases/download/1.0.0/epiModelDeathHospital-1-0-0.ssimpkg"
     description="Death + Hospitalization Model"
+    type="Add-on to epi"
+    requires="epi"
     url="https://github.com/ApexRMS/epiModelDeathHospital">
   </package>  
   <package
@@ -40,6 +49,8 @@
     version="1.0.0"
     location="https://github.com/ApexRMS/dataBcCdc/releases/download/1.0.0/dataBcCdc-1-0-0.ssimpkg"
     description="BC COVID-19 Data"
+    type="Add-on to epi"
+    requires="epi"
     url="https://github.com/ApexRMS/dataBcCdc">
   </package>  
   <package
@@ -47,6 +58,8 @@
     version="1.0.0"
     location="https://github.com/ApexRMS/epiDataCanada/releases/download/1.0.0/epiDataCanada-1-0-0.ssimpkg"
     description="Canadian COVID-19 Data"
+    type="Add-on to epi"
+    requires="epi"
     url="https://github.com/ApexRMS/epiDataCanada">
   </package> 
   <package
@@ -54,6 +67,8 @@
     version="1.0.0"
     location="https://github.com/ApexRMS/epiDataWorld/releases/download/1.0.0/epiDataWorld-1-0-0.ssimpkg"
     description="World COVID-19 Data"
+    type="Add-on to epi"
+    requires="epi"
     url="https://github.com/ApexRMS/epiDataWorld">
   </package> 
   <package
@@ -61,6 +76,8 @@
     version="1.0.0"
     location="https://github.com/ApexRMS/epiForecastIHME/releases/download/1.0.0/epiForecastIHME-1-0-0.ssimpkg"
     description="IHME COVID-19 Forecasts"
+    type="Add-on to epi"
+    requires="epi"
     url="https://github.com/ApexRMS/epiForecastIHME">
   </package>
   <package
@@ -68,6 +85,8 @@
     version="1.0.0"
     location="https://github.com/ApexRMS/epiTransform/releases/download/1.0.0/epiTransform-1-0-0.ssimpkg"
     description="Remove Seasonal Effects"
+    type="Add-on to epi"
+    requires="epi"
     url="https://github.com/ApexRMS/epiTransform">
   </package>    
 </packages>
