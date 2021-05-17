@@ -45,7 +45,7 @@
     url="https://github.com/ApexRMS/epiModelDeathHospital">
   </package>  
   <package
-    name="epiDataBc"
+    name="dataBcCdc"
     version="1.0.0"
     location="https://github.com/ApexRMS/dataBcCdc/releases/download/1.0.0/dataBcCdc-1-0-0.ssimpkg"
     description="BC COVID-19 Data"
