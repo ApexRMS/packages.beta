@@ -95,6 +95,6 @@
     location="https://github.com/ApexRMS/stconnect/releases/download/1.1.12/stconnect-1-1-12.ssimpkg"
     description="Connectivity planning for future climate and land-use change"
     type="Base"
-    url="https://github.com/ApexRMS/stconnect">
+    url="http://apexrms.github.io/stconnect">
   </package>   
 </packages>
