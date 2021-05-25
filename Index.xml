@@ -97,5 +97,14 @@
     type="Add-on to epi"
     requires="epi"
     url="https://github.com/ApexRMS/epiPublish">
-  </package>    
+  </package>
+  <package
+    name="stconnect"
+    version="1.1.12"
+    location="https://github.com/ApexRMS/stconnect/releases/download/1.1.12/stconnect-1-1-12.ssimpkg"
+    description="Connectivity planning for future climate and land-use change"
+    type="Base"
+    requires="stsim"
+    url="https://apexrms.github.io/stconnect">
+  </package>  
 </packages>
