@@ -1,12 +1,126 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <packages>
   <package
-    name="epi"
-    version="1.0.8"
-    location="https://github.com/ApexRMS/epi/releases/download/1.0.8/epi-1-0-8.ssimpkg"
-    description="Epidemic Base Package"
+    name="demosales"
+    version="1.1.0"
+    location="https://github.com/ApexRMS/demosales/releases/download/1.1.0/demosales-1-1-0.ssimpkg"
     type="Base"
-    url="https://github.com/ApexRMS/epi">
+    description="Example SyncroSim Base Package of a very simple sales forecasting model"
+    url="https://github.com/ApexRMS/demosales">
+  </package>
+  <package
+    name="dgsim"
+    version="2.3.0"
+    location="https://github.com/ApexRMS/dgsim/releases/download/2.3.0/dgsim-2-3-0.ssimpkg"
+    type="Base"
+    description="Simulates demographics of wildlife populations"
+    url="https://github.com/ApexRMS/dgsim">
+  </package>
+    <package
+      name="epi"
+      version="1.1.0"
+      location="https://github.com/ApexRMS/epi/releases/download/1.1.0/epi-1-1-0.ssimpkg"
+      description="Epidemic Base Package"
+      type="Base"
+      url="https://github.com/ApexRMS/epi">
+    </package>
+  <package
+      name="epiDataBc"
+      version="1.0.0"
+      location="https://github.com/ApexRMS/epiDataBc/releases/download/1.0.0/epiDataBc-1-0-0.ssimpkg"
+      description="BC COVID-19 Data"
+      type="Add-on to epi"
+      requires="epi"
+      url="https://github.com/ApexRMS/epiDataBc">
+  </package>
+  <package
+      name="epiDataCanada"
+      version="1.0.0"
+      location="https://github.com/ApexRMS/epiDataCanada/releases/download/1.0.0/epiDataCanada-1-0-0.ssimpkg"
+      description="Canadian COVID-19 Data"
+      type="Add-on to epi"
+      requires="epi"
+      url="https://github.com/ApexRMS/epiDataCanada">
+  </package>
+  <package
+      name="epiDataWorld"
+      version="1.0.0"
+      location="https://github.com/ApexRMS/epiDataWorld/releases/download/1.0.0/epiDataWorld-1-0-0.ssimpkg"
+      description="World COVID-19 Data"
+      type="Add-on to epi"
+      requires="epi"
+      url="https://github.com/ApexRMS/epiDataWorld">
+  </package>
+  <package
+      name="epiForecastIHME"
+      version="1.0.0"
+      location="https://github.com/ApexRMS/epiForecastIHME/releases/download/1.0.0/epiForecastIHME-1-0-0.ssimpkg"
+      description="IHME COVID-19 Forecasts"
+      type="Add-on to epi"
+      requires="epi"
+      url="https://github.com/ApexRMS/epiForecastIHME">
+  </package>
+  <package
+      name="epiModelDeathHospital"
+      version="1.0.0"
+      location="https://github.com/ApexRMS/epiModelDeathHospital/releases/download/1.0.0/epiModelDeathHospital-1-0-0.ssimpkg"
+      description="Death + Hospitalization Model"
+      type="Add-on to epi"
+      requires="epi"
+      url="https://github.com/ApexRMS/epiModelDeathHospital">
+  </package>
+  <package
+      name="epiModelVocVaccine"
+      version="1.0.0"
+      location="https://github.com/ApexRMS/epiModelVocVaccine/releases/download/1.0.0/epiModelVocVaccine-1-0-0.ssimpkg"
+      description="VOC + Vaccine Model"
+      type="Add-on to epi"
+      requires="epi"
+      url="https://github.com/ApexRMS/epiModelVocVaccine">
+  </package>
+  <package
+      name="epiPublish"
+      version="1.0.0"
+      location="https://github.com/ApexRMS/epiPublish/releases/download/1.0.0/epiPublish-1-0-0.ssimpkg"
+      description="Data Publication"
+      type="Add-on to epi"
+      requires="epi"
+      url="https://github.com/ApexRMS/epiPublish">
+  </package>
+  <package
+      name="epiTransform"
+      version="1.0.0"
+      location="https://github.com/ApexRMS/epiTransform/releases/download/1.0.0/epiTransform-1-0-0.ssimpkg"
+      description="Remove Seasonal Effects"
+      type="Add-on to epi"
+      requires="epi"
+      url="https://github.com/ApexRMS/epiTransform">
+  </package>
+  <package
+    name="helloworld"
+    version="1.0.0"
+    location="https://github.com/ApexRMS/helloworld/releases/download/1.0.0/helloworld-1-0-0.ssimpkg"
+    type="Base"
+    description="Hello World Package"
+    url="https://github.com/ApexRMS/helloworld">
+  </package>
+  <package
+    name="lucas"
+    version="1.0.5"
+    location="https://github.com/bsleeter/lucas/releases/download/1.0.5/lucas-1-0-5.ssimpkg"
+    type="Base"
+    description="Land Use and Carbon Scenario Simulator (LUCAS)"
+    requires="stsim"
+    url="https://github.com/bsleeter/lucas">
+  </package>
+  <package
+      name="modelCovidseir"
+      version="1.0.0"
+      location="https://github.com/ApexRMS/modelCovidseir/releases/download/1.0.0/modelCovidseir-1-0-0.ssimpkg"
+      description="Covidseir Model"
+      type="Add-on to epi"
+      requires="epi"
+      url="https://github.com/ApexRMS/modelCovidseir">
   </package>
   <package
     name="modelKarlenPypm"
@@ -18,85 +132,12 @@
     url="https://github.com/ApexRMS/modelKarlenPypm">
   </package>
   <package
-    name="modelCovidseir"
-    version="1.0.0"
-    location="https://github.com/ApexRMS/modelCovidseir/releases/download/1.0.0/modelCovidseir-1-0-0.ssimpkg"
-    description="Covidseir Model"
-    type="Add-on to epi"
-    requires="epi"
-    url="https://github.com/ApexRMS/modelCovidseir">
-  </package>
-  <package
-    name="epiModelVocVaccine"
-    version="1.0.0"
-    location="https://github.com/ApexRMS/epiModelVocVaccine/releases/download/1.0.0/epiModelVocVaccine-1-0-0.ssimpkg"
-    description="VOC + Vaccine Model"
-    type="Add-on to epi"
-    requires="epi"
-    url="https://github.com/ApexRMS/epiModelVocVaccine">
-  </package>
-  <package
-    name="epiModelDeathHospital"
-    version="1.0.0"
-    location="https://github.com/ApexRMS/epiModelDeathHospital/releases/download/1.0.0/epiModelDeathHospital-1-0-0.ssimpkg"
-    description="Death + Hospitalization Model"
-    type="Add-on to epi"
-    requires="epi"
-    url="https://github.com/ApexRMS/epiModelDeathHospital">
-  </package>
-  <package
-    name="epiDataBc"
-    version="1.0.0"
-    location="https://github.com/ApexRMS/epiDataBc/releases/download/1.0.0/epiDataBc-1-0-0.ssimpkg"
-    description="BC COVID-19 Data"
-    type="Add-on to epi"
-    requires="epi"
-    url="https://github.com/ApexRMS/epiDataBc">
-  </package>
-  <package
-    name="epiDataCanada"
-    version="1.0.0"
-    location="https://github.com/ApexRMS/epiDataCanada/releases/download/1.0.0/epiDataCanada-1-0-0.ssimpkg"
-    description="Canadian COVID-19 Data"
-    type="Add-on to epi"
-    requires="epi"
-    url="https://github.com/ApexRMS/epiDataCanada">
-  </package>
-  <package
-    name="epiDataWorld"
-    version="1.0.0"
-    location="https://github.com/ApexRMS/epiDataWorld/releases/download/1.0.0/epiDataWorld-1-0-0.ssimpkg"
-    description="World COVID-19 Data"
-    type="Add-on to epi"
-    requires="epi"
-    url="https://github.com/ApexRMS/epiDataWorld">
-  </package>
-  <package
-    name="epiForecastIHME"
-    version="1.0.0"
-    location="https://github.com/ApexRMS/epiForecastIHME/releases/download/1.0.0/epiForecastIHME-1-0-0.ssimpkg"
-    description="IHME COVID-19 Forecasts"
-    type="Add-on to epi"
-    requires="epi"
-    url="https://github.com/ApexRMS/epiForecastIHME">
-  </package>
-  <package
-    name="epiTransform"
-    version="1.0.0"
-    location="https://github.com/ApexRMS/epiTransform/releases/download/1.0.0/epiTransform-1-0-0.ssimpkg"
-    description="Remove Seasonal Effects"
-    type="Add-on to epi"
-    requires="epi"
-    url="https://github.com/ApexRMS/epiTransform">
-  </package>
-  <package
-    name="epiPublish"
-    version="1.0.0"
-    location="https://github.com/ApexRMS/epiPublish/releases/download/1.0.0/epiPublish-1-0-0.ssimpkg"
-    description="Data Publication"
-    type="Add-on to epi"
-    requires="epi"
-    url="https://github.com/ApexRMS/epiPublish">
+    name="netlogo"
+    version="1.2.0"
+    location="https://github.com/ApexRMS/netlogo/releases/download/1.2.0/netlogo-1-2-0.ssimpkg"
+    type="Base"
+    description="Runs the NetLogo agent-based modeling environment"
+    url="https://github.com/ApexRMS/netlogo">
   </package>
   <package
     name="stconnect"
@@ -109,10 +150,28 @@
   </package>
   <package
     name="stsim"
-    version="3.2.28"
-    location="https://github.com/ApexRMS/stsim/releases/download/3.2.28/stsim-3-2-28.ssimpkg"
+    version="3.3.0"
+    location="https://github.com/ApexRMS/stsim/releases/download/3.3.0/stsim-3-3-0.ssimpkg"
     type="Base"
     description="The ST-Sim state-and-transition simulation model"
     url="https://github.com/ApexRMS/stsim">
+  </package>
+  <package
+    name="stsimecodep"
+    version="3.3.0"
+    location="https://github.com/ApexRMS/stsimecodep/releases/download/3.3.0/stsimecodep-3-3-0.ssimpkg"
+    type="Add-on to stsim"
+    description="Calculates ecological departure in ST-Sim using the LANDFIRE Fire Regime Condition Class [*** REQUIRES SyncroSim v2.2.3 or higher ***]"
+    requires="stsim"
+    url="https://github.com/ApexRMS/stsimecodep">
+  </package>
+  <package
+    name="stsimsf"
+    version="3.3.0"
+    location="https://github.com/ApexRMS/stsimsf/releases/download/3.3.0/stsimsf-3-3-0.ssimpkg"
+    type="Add-on to stsim"
+    description="Integrates stocks and flows into the ST-Sim simulation model"
+    requires="stsim"
+    url="https://github.com/ApexRMS/stsimsf">
   </package>
 </packages>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package
+  name="modelKarlenPypm"
+  version="1.0.0"
+  location="https://github.com/ApexRMS/modelKarlenPypm/releases/download/1.0.0/modelKarlenPypm-1-0-0.ssimpkg"
+  description="Karlen PyPm Model"
+  type="Add-on to epi"
+  requires="epi"
+  url="https://github.com/ApexRMS/modelKarlenPypm">
+</package>

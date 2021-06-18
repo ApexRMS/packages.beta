@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package
+    name="epiDataWorld"
+    version="1.0.0"
+    location="https://github.com/ApexRMS/epiDataWorld/releases/download/1.0.0/epiDataWorld-1-0-0.ssimpkg"
+    description="World COVID-19 Data"
+    type="Add-on to epi"
+    requires="epi"
+    url="https://github.com/ApexRMS/epiDataWorld">
+</package>

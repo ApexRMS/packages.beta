@@ -1,10 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<packages>
+﻿<?xml version="1.0" encoding="utf-8"?>
   <package
     name="epi"
     version="1.1.0"
     location="https://github.com/ApexRMS/epi/releases/download/1.1.0/epi-1-1-0.ssimpkg"
-    description="Epidemic Base Package for SyncroSim"
+    description="Epidemic Base Package"
+    type="Base"
     url="https://github.com/ApexRMS/epi">
   </package>
-</packages>

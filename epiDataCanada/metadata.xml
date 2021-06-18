@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package
+    name="epiDataCanada"
+    version="1.0.0"
+    location="https://github.com/ApexRMS/epiDataCanada/releases/download/1.0.0/epiDataCanada-1-0-0.ssimpkg"
+    description="Canadian COVID-19 Data"
+    type="Add-on to epi"
+    requires="epi"
+    url="https://github.com/ApexRMS/epiDataCanada">
+</package>

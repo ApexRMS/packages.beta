@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package
+    name="epiForecastIHME"
+    version="1.0.0"
+    location="https://github.com/ApexRMS/epiForecastIHME/releases/download/1.0.0/epiForecastIHME-1-0-0.ssimpkg"
+    description="IHME COVID-19 Forecasts"
+    type="Add-on to epi"
+    requires="epi"
+    url="https://github.com/ApexRMS/epiForecastIHME">
+</package>

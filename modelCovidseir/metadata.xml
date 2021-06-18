@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package
+    name="modelCovidseir"
+    version="1.0.0"
+    location="https://github.com/ApexRMS/modelCovidseir/releases/download/1.0.0/modelCovidseir-1-0-0.ssimpkg"
+    description="Covidseir Model"
+    type="Add-on to epi"
+    requires="epi"
+    url="https://github.com/ApexRMS/modelCovidseir">
+</package>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package
+    name="epiTransform"
+    version="1.0.0"
+    location="https://github.com/ApexRMS/epiTransform/releases/download/1.0.0/epiTransform-1-0-0.ssimpkg"
+    description="Remove Seasonal Effects"
+    type="Add-on to epi"
+    requires="epi"
+    url="https://github.com/ApexRMS/epiTransform">
+</package>
