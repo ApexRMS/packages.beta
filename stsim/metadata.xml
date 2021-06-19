@@ -5,5 +5,5 @@
   location="https://github.com/ApexRMS/stsim/releases/download/3.3.0/stsim-3-3-0.ssimpkg"
   type="Base"
   description="The ST-Sim state-and-transition simulation model"
-  url="https://github.com/ApexRMS/stsim">
+  url="https://docs.stsim.net/">
 </package>

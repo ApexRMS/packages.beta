@@ -5,5 +5,5 @@
   location="https://github.com/ApexRMS/netlogo/releases/download/1.2.0/netlogo-1-2-0.ssimpkg"
   type="Base"
   description="Runs the NetLogo agent-based modeling environment"
-  url="https://github.com/ApexRMS/netlogo">
+  url="https://apexrms.github.io/netlogo/">
 </package>

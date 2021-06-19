@@ -6,5 +6,5 @@
   description="Connectivity planning for future climate and land-use change"
   type="Base"
   requires="stsim"
-  url="https://apexrms.github.io/stconnect">
+  url="https://apexrms.github.io/stconnect/">
 </package>

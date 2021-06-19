@@ -14,7 +14,7 @@
     location="https://github.com/ApexRMS/dgsim/releases/download/2.3.0/dgsim-2-3-0.ssimpkg"
     type="Base"
     description="Simulates demographics of wildlife populations"
-    url="https://github.com/ApexRMS/dgsim">
+    url="https://apexrms.github.io/dgsim/">
   </package>
     <package
       name="epi"
@@ -111,7 +111,7 @@
     type="Base"
     description="Land Use and Carbon Scenario Simulator (LUCAS)"
     requires="stsim"
-    url="https://github.com/bsleeter/lucas">
+    url="https://apexrms.github.io/LucasLanding/">
   </package>
   <package
       name="modelCovidseir"
@@ -137,7 +137,7 @@
     location="https://github.com/ApexRMS/netlogo/releases/download/1.2.0/netlogo-1-2-0.ssimpkg"
     type="Base"
     description="Runs the NetLogo agent-based modeling environment"
-    url="https://github.com/ApexRMS/netlogo">
+    url="https://apexrms.github.io/netlogo/">
   </package>
   <package
     name="stconnect"
@@ -146,7 +146,7 @@
     description="Connectivity planning for future climate and land-use change"
     type="Base"
     requires="stsim"
-    url="https://apexrms.github.io/stconnect">
+    url="https://apexrms.github.io/stconnect/">
   </package>
   <package
     name="stsim"
@@ -154,7 +154,7 @@
     location="https://github.com/ApexRMS/stsim/releases/download/3.3.0/stsim-3-3-0.ssimpkg"
     type="Base"
     description="The ST-Sim state-and-transition simulation model"
-    url="https://github.com/ApexRMS/stsim">
+    url="https://docs.stsim.net/">
   </package>
   <package
     name="stsimecodep"
