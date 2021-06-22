@@ -163,7 +163,7 @@
     type="Add-on to stsim"
     description="Calculates ecological departure in ST-Sim using the LANDFIRE Fire Regime Condition Class [*** REQUIRES SyncroSim v2.2.3 or higher ***]"
     requires="stsim"
-    url="https://github.com/ApexRMS/stsimecodep">
+    url="https://docs.stsim.net/">
   </package>
   <package
     name="stsimsf"
@@ -172,6 +172,6 @@
     type="Add-on to stsim"
     description="Integrates stocks and flows into the ST-Sim simulation model"
     requires="stsim"
-    url="https://github.com/ApexRMS/stsimsf">
+    url="https://docs.stsim.net/">
   </package>
 </packages>

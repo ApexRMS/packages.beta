@@ -6,5 +6,5 @@
   type="Add-on to stsim"
   description="Integrates stocks and flows into the ST-Sim simulation model"
   requires="stsim"
-  url="https://github.com/ApexRMS/stsimsf">
+  url="https://docs.stsim.net/">
 </package>
