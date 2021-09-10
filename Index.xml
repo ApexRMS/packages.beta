@@ -122,8 +122,8 @@
   </package>
   <package
     name="helloworldSpatial"
-    version="1.0.0"
-    location="https://github.com/ApexRMS/helloworldSpatial/releases/download/1.0.0/helloworldSpatial-1-0-0.ssimpkg"
+    version="1.0.1"
+    location="https://github.com/ApexRMS/helloworldSpatial/releases/download/1.0.1/helloworldSpatial-1-0-1.ssimpkg"
     type="Base"
     description="Example using spatial data"
     url="https://apexrms.github.io/helloworldEnhanced/">
@@ -189,8 +189,8 @@
   </package>
   <package
     name="stconnect"
-    version="1.1.13"
-    location="https://github.com/ApexRMS/stconnect/releases/download/1.1.13/stconnect-1-1-13.ssimpkg"
+    version="1.1.14"
+    location="https://github.com/ApexRMS/stconnect/releases/download/1.1.14/stconnect-1-1-14.ssimpkg"
     description="Connectivity planning for future climate and land-use change"
     type="Base"
     requires="stsim"
