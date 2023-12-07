@@ -1,5 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <packages>
+  <package 
+    name="burnP3Plus" 
+    version="1.0.0" 
+    location="https://github.com/BurnP3/BurnP3Plus/releases/download/1.0.0/burnP3Plus-1-0-0.ssimpkg" 
+    type="Base" 
+    description="Burn-P3+ package for burn probability modeling" 
+    url="https://burnp3.github.io/BurnP3Plus/">
+  </package>
+  <package
+    name="burnP3PlusCell2Fire"
+    version="1.0.0"
+    location="https://github.com/BurnP3/burnP3PlusCell2Fire/releases/download/1.0.0/burnP3PlusCell2Fire-1-0-0.ssimpkg"
+    type="Add-on to burnP3Plus"
+    description="Cell2Fire fire growth model add-on package for BurnP3+"
+    requires="burnP3Plus"
+    url="https://github.com/BurnP3/BurnP3PlusCell2Fire">
+  </package>
+  <package
+    name="burnP3PlusPrometheus"
+    version="1.0.0"
+    location="https://github.com/BurnP3/burnP3PlusPrometheus/releases/download/1.0.0/burnP3PlusPrometheus-1-0-0.ssimpkg"
+    type="Add-on to burnP3Plus"
+    description="Prometheus fire growth model add-on package for BurnP3+"
+    requires="burnP3Plus"
+    url="https://github.com/burnp3/burnp3plusprometheus">
+  </package>
   <package
     name="demosales"
     version="1.1.0"
@@ -198,8 +224,8 @@
   </package>
   <package
     name="stsim"
-    version="3.3.2"
-    location="https://github.com/ApexRMS/stsim/releases/download/3.3.2/stsim-3-3-2.ssimpkg"
+    version="3.4.0"
+    location="https://github.com/ApexRMS/stsim/releases/download/3.4.0/stsim-3-4-0.ssimpkg"
     type="Base"
     description="The ST-Sim state-and-transition simulation model"
     url="https://docs.stsim.net/">
@@ -215,8 +241,8 @@
   </package>
   <package
     name="stsimsf"
-    version="3.3.1"
-    location="https://github.com/ApexRMS/stsimsf/releases/download/3.3.1/stsimsf-3-3-1.ssimpkg"
+    version="3.4.0"
+    location="https://github.com/ApexRMS/stsimsf/releases/download/3.4.0/stsimsf-3-4-0.ssimpkg"
     type="Add-on to stsim"
     description="Integrates stocks and flows into the ST-Sim simulation model"
     requires="stsim"
