@@ -180,8 +180,8 @@
   </package>
   <package
     name="lucas"
-    version="1.0.5"
-    location="https://github.com/bsleeter/lucas/releases/download/1.0.5/lucas-1-0-5.ssimpkg"
+    version="1.0.6"
+    location="https://github.com/bsleeter/lucas/releases/download/1.0.6/lucas-1-0-6.ssimpkg"
     type="Base"
     description="Land Use and Carbon Scenario Simulator (LUCAS)"
     requires="stsim"
@@ -215,8 +215,8 @@
   </package>
   <package
     name="stconnect"
-    version="1.1.14"
-    location="https://github.com/ApexRMS/stconnect/releases/download/1.1.14/stconnect-1-1-14.ssimpkg"
+    version="1.1.17"
+    location="https://github.com/ApexRMS/stconnect/releases/download/1.1.17/stconnect-1-1-17.ssimpkg"
     description="Connectivity planning for future climate and land-use change"
     type="Base"
     requires="stsim"
@@ -232,8 +232,8 @@
   </package>
   <package
     name="stsimecodep"
-    version="3.3.0"
-    location="https://github.com/ApexRMS/stsimecodep/releases/download/3.3.0/stsimecodep-3-3-0.ssimpkg"
+    version="3.3.1"
+    location="https://github.com/ApexRMS/stsimecodep/releases/download/3.3.1/stsimecodep-3-3-1.ssimpkg"
     type="Add-on to stsim"
     description="Calculates ecological departure in ST-Sim using the LANDFIRE Fire Regime Condition Class [*** REQUIRES SyncroSim v2.2.3 or higher ***]"
     requires="stsim"
